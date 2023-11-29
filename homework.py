@@ -1,13 +1,17 @@
-my_arr = (2,5,16,18,28,17,39,75)
+from turtle import *
+bgcolor("black")
+color("red")
 
-my_sum = 0
-for num in my_arr:
-    my_sum =+ num
-    print(my_sum)
+begin_fill()
+pensize(3)
+left(50)
+forward(133)
+circle(50,200)
+right(140)
+circle(50,200)
+forward(133)
+end_fill()
 
-    
-for num in my_arr:
-    if num % 2 == 0 :
-        print (srt(num)) + "ლუწი"
-    else:
-        print (srt(num)) + "კენტი"
+hideturtle()
+done()
+
