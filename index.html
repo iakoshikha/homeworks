@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class="header">
+    <!-- <nav class="nav">
+      <p>SIGN IN</p>
+      <P>CREATE ACCOUNT</P>
+      <P style="color: red;">DISCOUNT</P>
+      <P>ABOUT US</P>
+      <P></P>
+      <button id="basket" class="fa-solid fa-cart-shopping fa-5x"></button> 
+    </nav>
+    <div>
+        </div>
+        <p class="name">WOMAN <b>SPACE</b></p>
+      </div>
+    </div> -->
+    <div class="header">
+      <div class="heading">
+        <h1>WOMAN SPACE</h1>
+      </div>
+      <div class="cart">
+        <i class="fa fa-shopping-basket fa-2x"></i>
+        <i class="fa fa-caret-down"></i><br>
+        <div class="total-text">
+          <p>Items (<span id="counter">0</span>)</p>
+          <p id="items-basket"></p>
+        </div>
+      </div>
+  
+      <div id="cart-items">
+        <ol id="list-item">
+        </ol>
+  
+        <div class="total-text">
+            <p>Total:<span id="totalPrice" >0</span>$</p>
+            <!-- <button id="minus" style="background-color: #b883b7; margin-top: 25px;border-radius: 5px;color: white;">delete last</button> -->
+            <span class="close-x" id="minus" style="margin-bottom: -5px; margin-left: 5px;"></span>
+        </div>
+      </div>
+      <nav class="nav">
+      <h1>abous us</h1>
+      <h1 style="color: rgb(239, 106, 106);">discount</h1>
+      <h1>sign in</h1>
+    </nav>
+    
+  </header>
+  <div class="fox">
+    <div class="head">
+      <div class="eye"></div>
+      <div class="eye"></div>
+    </div>
+    <div class="ear"></div>
+    <div class="ear"></div>
+    <div class="nose"></div>
+    <div class="body"></div>
+    <div class="tail"></div>
+  </div>
+  
+  <a href="https://github.com/dashboard" class="author">iako shikhashvili</a>
+
+
+  <div>
+    <div class="items-container"></div>
+
+    <div class="cursos__container">
+      <div class="carts">
+          <img src="photos/dyson.png" class="photo">
+          <div class="info__card">
+            <h4>dyson</h4>
+            <p><span class="discount">$599</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/dryshampoo.png" class="photo">
+          <div class="info__card">
+            <h4>crown affair- dry shampoo</h4>
+            <p><span class="oldprice">$75</span> <span class="discount">$30</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/gloss.png" class="photo">
+          <div class="info__card">
+            <h4>LAGEINE-lip glowy balm<h4>
+            <p><span class="oldprice">$59</span> <span class="discount">$29.99</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/purple.png" class="photo">
+          <div class="info__card">
+            <h4>Tatcha- dewy cleanse</h4>
+            <p><span class="discount">$19</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/rare.png" class="photo">
+          <div class="info__card">
+            <h4>Rare Beauty by Selena Gomez</h4>
+            <p><span class="discount">$120</span> </p>
+            <a class="basket"></i>კალათაში დამატება + </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/ouai.png" class="photo">
+          <div class="info__card">
+            <h4>OUAI Mini Anti-Frizz Hair Styling Cream</h4>
+            <p><span class="oldprice">$100</span> <span class="discount">$70</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/ordinary.png" class="photo">
+          <div class="info__card">
+            <h4>The Ordinary</h4>
+            <p><span class="discount">$15</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/Screenshot_2024-06-12_011537-removebg-preview.png" class="photo">
+          <div class="info__card">
+            <h4>Sol de Janeiro</h4>
+            <p><span class="discount">$14</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/manyy.png" class="photo">
+          <div class="info__card">
+            <h4>LANEIGE Dreamy Lip Kit</h4>
+            <p><span class="oldprice">$70</span> <span class="discount">$22</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/massage.png" class="photo">
+          <div class="info__card">
+            <h4>mini rosequartz roller</h4>
+            <p><span class="oldprice">$25</span> <span class="discount">$14.50</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/Screenshot_2024-06-12_173820-removebg-preview.png" class="photo">
+          <div class="info__card">
+            <h4>BURBERRY parfum intense</h4>
+            <p><span class="discount">$180</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/Screenshot_2024-06-12_174310-removebg-preview.png" class="photo">
+          <div class="info__card">
+            <h4>crown affair- dry shampoo</h4>
+            <p><span class="oldprice">$75</span> <span class="discount">$30</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/Screenshot_2024-06-12_174138-removebg-preview.png" class="photo">
+          <div class="info__card">
+            <h4>fenty skin lil oil</h4>
+            <p><span class="discount">$6.70</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/Screenshot_2024-06-12_174022-removebg-preview.png" class="photo">
+          <div class="info__card">
+            <h4>strawberry lip balm</h4>
+            <p><span class="discount">$5</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/pencil.png" class="photo">
+          <div class="info__card">
+            <h4>12 hour contour pencil Eyeliner</h4>
+            <p><span class="discount">$4</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/fnty.png" class="photo">
+          <div class="info__card">
+            <h4>crown affair- dry shampoo</h4>
+            <p><span class="oldprice">$75</span> <span class="discount">$30</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/paulad.png" class="photo">
+          <div class="info__card">
+            <h4>paula's choice anti aging retinol</h4>
+            <p><span class="oldprice">$65</span> <span class="discount">$25</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+      <div class="carts">
+        <div>
+          <img src="photos/clinique.png" class="photo">
+          <div class="info__card">
+            <h4>CLINIQUE mointurizing lotion+</h4>
+            <p><span class="discount">$30</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/aa.png" class="photo">
+          <div class="info__card">
+            <h4>dr.jart+ Dermast clearing solucion face mask</h4>
+            <p><span class="discount">$7</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <div>
+          <img src="photos/a.png" class="photo">
+          <div class="info__card">
+            <h4>MILK MAKEUP makeup primer with hyluronic acid+</h4>
+            <p><span class="oldprice">$36</span> <span class="discount">$24</span> </p>
+            <a class="basket"></i>კალათაში დამატება +</a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <script src="script.js"></script>
+
+</body>
+
+</html>
